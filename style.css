@@ -1,0 +1,28 @@
+body
+{
+    background-color: rgb(33, 30, 30);
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card
+{
+    margin: 10px;
+    background: linear-gradient(white,rgb(93, 246, 241));
+}
+
+card:hover
+{
+    box-shadow: white 10px 10px;
+}
+
+.card a
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
