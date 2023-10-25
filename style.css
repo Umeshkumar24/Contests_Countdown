@@ -15,9 +15,11 @@ body
     background: linear-gradient(white,rgb(93, 246, 241));
 }
 
-card:hover
+.card:hover
 {
-    box-shadow: white 10px 10px;
+    box-shadow: rgb(96, 81, 81) 10px 10px;
+    scale: 1.05;
+    transition: 1000ms;
 }
 
 .card a
@@ -25,4 +27,10 @@ card:hover
     display: flex;
     justify-content: center;
     align-items: baseline;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    color:white;
 }
