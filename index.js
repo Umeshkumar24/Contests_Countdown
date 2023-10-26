@@ -24,4 +24,25 @@ response.then((v) => {
     cardContainer.innerHTML = ihtml
 })
 
+// Contributed By: Aasish Kumar Sahoo
+
+const viewToggleButton = document.getElementById("viewToggleButton");
+const cardContainer = document.getElementById("cardContainer");
+const CARD = document.getElementsByClassName("toggle-btn")
+
+// A function to toggle between grid and list views
+function toggleView() {
+    if (cardContainer.style.display === "grid") {
+        cardContainer.style.display = "flex"; // Set to list view
+        viewToggleButton.textContent = "Switch to List"; // Change button text
+    } else {
+        cardContainer.style.display = "grid"; // Set to grid view
+        viewToggleButton.textContent = "Switch to Grid"; // Change button text
+    }
+}
+
+// Added an event listener to the button
+viewToggleButton.addEventListener("click", toggleView);
+
+
 
