@@ -34,3 +34,45 @@ body
     justify-content: space-between;
     color:white;
 }
+
+
+
+
+/* Contributed By: Aasish Kumar Sahoo */
+
+/* Here, I fixed the Top Button which was not sticking to the screen and was always at the bottom. */
+
+.top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+/* Style for the "Go to top" link on hover */
+.top:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    text-decoration: none;
+    color: #fff; /* Change text color on hover */
+}
+
+/* here, I have added a new button which will change the view from list to grid and viceversa */
+.toggle-btn{
+    background-color:rgb(94, 235, 235);
+    color: black;
+    margin: 4px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+.toggle-btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    scale: 1.05;
+    transition: 1000ms;
+}
